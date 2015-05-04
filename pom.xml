@@ -4,7 +4,7 @@
     <groupId>sample.plugin.it.roo-sample</groupId>
     <artifactId>roo-sample</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.0.BUILD-SNAPSHOT</version>
+    <version>1.2.5.BUILD-SNAPSHOT</version>
     <url>http://projects.spring.io/spring-roo/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,6 +30,8 @@
                     <templateWiki>${basedir}/src/site/confluence/template.confluence</templateWiki>
                     <wikiFilesExt>.confluence</wikiFilesExt>
                     <serverId>attlasian-cloud-server-id</serverId>
+                    <!--<gitLogSinceTagName>1.3.0.RELEASE</gitLogSinceTagName>-->
+                    <gitLogSinceTagNameVersionRule>SINCE_PREV_PATCH_RELEASE</gitLogSinceTagNameVersionRule>
                     <!--<properties>-->
                     <!--<prop>the_text_value</prop>-->
                     <!--&lt;!&ndash; SIMPLE TEXT &ndash;&gt;-->
