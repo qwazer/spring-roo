@@ -4,7 +4,7 @@
     <groupId>sample.plugin.it.roo-sample</groupId>
     <artifactId>roo-sample</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.5.BUILD-SNAPSHOT</version>
+    <version>1.3.1.BUILD-SNAPSHOT</version>
     <url>http://projects.spring.io/spring-roo/</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,7 +32,7 @@
                     <serverId>attlasian-cloud-server-id</serverId>
                     <gitLogJiraIssuesEnable>true</gitLogJiraIssuesEnable>
                     <!--<gitLogSinceTagName>1.3.0.RELEASE</gitLogSinceTagName>-->
-                    <gitLogSinceTagNameVersionRule>SINCE_PREVIOUS_PATCH_VERSION</gitLogSinceTagNameVersionRule>
+                    <gitLogCalculateRuleForSinceTagName>SINCE_PREVIOUS_PATCH_VERSION</gitLogCalculateRuleForSinceTagName>
                     <!--<properties>-->
                     <!--<prop>the_text_value</prop>-->
                     <!--&lt;!&ndash; SIMPLE TEXT &ndash;&gt;-->
