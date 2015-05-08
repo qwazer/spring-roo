@@ -31,7 +31,7 @@
                     <wikiFilesExt>.confluence</wikiFilesExt>
                     <serverId>attlasian-cloud-server-id</serverId>
                     <!--<gitLogSinceTagName>1.3.0.RELEASE</gitLogSinceTagName>-->
-                    <gitLogSinceTagNameVersionRule>SINCE_PREV_PATCH_RELEASE</gitLogSinceTagNameVersionRule>
+                    <gitLogSinceTagNameVersionRule>SINCE_PREVIOUS_PATCH_VERSION</gitLogSinceTagNameVersionRule>
                     <!--<properties>-->
                     <!--<prop>the_text_value</prop>-->
                     <!--&lt;!&ndash; SIMPLE TEXT &ndash;&gt;-->
