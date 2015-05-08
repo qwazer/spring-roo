@@ -16,6 +16,8 @@ ${gitlog.jiraIssues}
 
 ${gitlog.jiraIssues}
 
+_since ${gitlog.sinceTagName}_
+
 ---------
 
 
